@@ -2,6 +2,7 @@
 
 We are giving you an initial react application (bootstrapped with [Create React App](https://github.com/facebook/create-react-app)) with a datamodel and a first api endpoint `http://localhost:3001/api/deals`, connected to a mongodb.
 
+You are free to add any other libraries you like to use.
 ___
 
 ## Available Scripts
@@ -41,7 +42,7 @@ ___
 }
 ```
 
-4. Show the list of deals order by create date, showing the most recent first.
+4. Show the list of deals order by create date, showing the most recent first, feel free to be creative with the layout.
 
 5. Create a filter to show all deals created from a certain date.
 
