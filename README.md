@@ -34,7 +34,7 @@ ___
 2. Add a new endpoint `http://localhost:3001/api/deal/{id}` that will return a single deal by ID.
 
 3. Add a new endpoint `http://localhost:3001/api/deals/stats` that will return:
-```json
+```js
 {
     deals_count: 200,       // number of deals
     total_amounts: 200000,  // total amountRequired of deals
