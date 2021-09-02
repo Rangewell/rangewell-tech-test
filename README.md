@@ -50,7 +50,7 @@ ___
 
 ## Stretch 
 Do you still have time, here some other task?
-1. Itegrate Redux on react application
+1. Write a context provider to store deals using react hooks
 2. Insert a new deal
 3. Edit a deal
 
