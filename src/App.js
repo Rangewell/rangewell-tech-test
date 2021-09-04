@@ -4,7 +4,7 @@ import Dropdown from "./components/Dropdown"
 import Table from "./components/Table"
 
 import { api } from "./services/api"
-import { formatAmount } from "./utils/formaters"
+import { formatDate, formatAmount } from "./utils/formaters"
 
 import logo from "./assets/logo.svg"
 import "./styles/App.css"
@@ -25,7 +25,7 @@ const App = () => {
   }
 
   const fetchDates = useCallback(() => {
-    const dates = deals.map((deal) => deal.createdAt)
+    const dates = deals.map((deal) => formatDate(deal.createdAt))
     const uniqueDates = [...new Set(dates)]
     setDates(uniqueDates)
   }, [deals])

@@ -7,7 +7,7 @@ const Table = ({ deals, selected }) => {
 
   const handleFilter = useCallback(() => {
     if (selected) {
-      const filteredDeals = deals.filter((deal) => deal.createdAt === selected)
+      const filteredDeals = deals.filter((deal) => formatDate(deal.createdAt) === selected)
       setCurrentDeals(filteredDeals)
     } else {
       setCurrentDeals(deals)
