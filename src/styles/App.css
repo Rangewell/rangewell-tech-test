@@ -23,10 +23,33 @@
   color: #61dafb;
 }
 
-.BodyContent{
-    text-align: left;
-    width: 80vmax;
-    margin: 0 auto;
+.BodyContent {
+  text-align: left;
+  width: 80vmax;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid gray;
+}
+
+th {
+  color: gray;
+  text-transform: uppercase;
+  font: 500 0.75rem Lexend, sans-serif;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid gray;
+}
+
+td {
+  font-size: 0.875rem;
 }
 
 @keyframes App-logo-spin {
